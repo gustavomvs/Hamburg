@@ -7,7 +7,14 @@ function Header({produtos, setSalvarProdutos}){
   const [busca, setBusca] = useState("");
 
   function filtro(){
-    const produtoAchado = produtos.filter((produto) => produto.category === busca)
+    const produtoAchado = produtos.filter((produto) => {
+        if(produto.category.toLowerCase() === busca.toLowerCase()){
+            return produto
+        } 
+        if (produto.name.toLowerCase() === busca.toLowerCase()){
+          return produto;
+        }
+    })
     if(produtoAchado){
         setSalvarProdutos(produtoAchado)
     }else{
