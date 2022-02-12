@@ -1,0 +1,17 @@
+.logo{
+    width: 365px;
+    height: 65px;
+    background-color: #27AE60;
+    border: 2px solid #27AE60;
+    color: #FFFFFF;
+    font-style: bold;
+    font-size: 18px;
+    border-radius: 5px 5px 0px 0px;
+    display: flex;
+    align-items: center;
+}
+
+.logo p {
+    margin-left: 20px;
+}
+
