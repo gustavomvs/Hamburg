@@ -2,8 +2,6 @@ import './style.css'
 
 function CartProduct({cart , removeCart}){
 
-    
-
     return (
         <div>
             {cart.length < 1 ? <div className='divP'> <p className='p1'>Sua sacola está vazia</p> <p className='p2'>Adicione itens</p> </div> : <div></div>}

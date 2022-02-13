@@ -3,9 +3,10 @@
     flex-wrap: wrap;
     justify-content: space-around;
     border-bottom: 1px solid #F5F5F5;
-    margin: 14px 0px;
+    margin: 0px;
     margin-bottom: 25px;
     background-color: #F5F5F5;
+    padding: 10px 0px;
 }
 
 .botao {
@@ -41,6 +42,7 @@
     padding: 10px;
     border-radius: 8px;
     border: #E0E0E0 solid 2px;
+    background-color: #FFF;
 }
 
 @media (min-width: 900px){
