@@ -1,71 +1,74 @@
 .cImage {
-    width: 70px;
-    height: 70px;
+  width: 70px;
+  height: 70px;
 }
 
 .flex {
-    display: flex;
-    height: 70px;
-    justify-content: start;
-    margin-left: 10px;
-    margin-bottom: 28px;
+  display: flex;
+  height: 70px;
+  justify-content: start;
+  margin-left: 10px;
+  margin-bottom: 28px;
 }
 
-.flex div {
+/* .flex div {
     margin-left: 15px;
-    
+    } */
+
+.flex {
+  gap: 15px;
 }
 
 .cName {
-    color: #333333;
-    font-size: 14px;
-    font-style: bold;
-    text-align: left;
-    width: 170px;
+  color: #333333;
+  font-size: 14px;
+  font-style: bold;
+  text-align: left;
+  width: 170px;
 }
 
 .cCategory {
-    font-size: 12px;
-    color: #828282;
-    text-align: left;
-    width: 170px;
+  font-size: 12px;
+  color: #828282;
+  text-align: left;
+  width: 170px;
 }
 
 .cBotao {
-   margin-top: 14px;
-   width: 51px;
-   height: 15px;
-   border: none;
-   color: #BDBDBD;
-   background-color: #fff;
+  margin-top: 14px;
+  width: 51px;
+  height: 15px;
+  border: none;
+  color: #bdbdbd;
+  background-color: #fff;
+  margin-right: 15px;
 }
 
 .cQuantidade {
-    color: #828282;
-    font-size: 12px
+  color: #828282;
+  font-size: 12px;
 }
 
 .p1 {
-    margin: 0;
-    font-size: 18px;
-    font-style: bold;
-    width: 342px;
-    height: 40px;
-    color: #333333;
+  margin: 0;
+  font-size: 18px;
+  font-style: bold;
+  width: 342px;
+  height: 40px;
+  color: #333333;
 }
 
 .p2 {
-    margin: 0;
-    font-size: 14px;
-    color: #828282;
+  margin: 0;
+  font-size: 14px;
+  color: #828282;
 }
 
 .divP {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #F5F5F5;
-    height: 158px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  height: 158px;
 }
-
