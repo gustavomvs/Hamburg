@@ -26,7 +26,7 @@ function CartProduct({ cart, removeCart }) {
               <button className="cBotao" onClick={() => removeCart(index)}>
                 Remover
               </button>
-              <BsTrash className="trash" />
+              <BsTrash onClick={() => removeCart(index)} className="trash" />
               <p className="cQuantidade">{produto.quantidade}</p>
             </div>
           </div>
